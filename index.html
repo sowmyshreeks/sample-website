@@ -1,0 +1,82 @@
+<html>
+<head>
+<style>
+ul.bar li a{
+			 display:block;
+			 color:white;
+			 text-align:center;
+			 text-decoration:none;
+			 padding:14px;
+	 }
+ul.bar li { 
+			float:left;
+			border-right:1px solid white;
+			width:19.8%;
+			}
+ul.bar li:last-child{
+					  border-right:none;
+					}
+ul.bar li a:hover {
+					background-color:#D2B48C ;
+				   }
+.active{
+		background-color:#48D1CC;
+		}
+ul.bar {
+		list-style-type:none;
+		border:1px solid #008080 ;
+		background-color:#008080 ;
+		overflow:hidden;
+		padding:0;
+		margin-top:0;
+		position:relative;
+		top:0;
+	    }
+body{
+		margin:0;
+		padding:0;
+	}
+.mid{
+	 margin:auto;
+	 width:60%;
+	 }
+body {
+		background:url('light.jpg') no-repeat fixed;
+		background-size:cover;
+							 
+	 }
+</style>
+</head>
+
+<body>
+<div class="mid">
+
+<ul class="bar">
+<li><a class="active" href="example1.html" target="iframe_a">HOME</a></li>
+<li><a href="about.html" target="iframe_a">ABOUT</a></li>
+<li><a href="#">NEWS</a></li>
+<li><a href="#">FOOD</a></li>
+<li><a href="#">CONTACT</a></li>
+</ul>
+<img src="logo.png" style="width:100px;height:100px; margin-bottom:5px;">
+
+<iframe width="100%" height="auto" src="example1.html" name="iframe_a" style="border:none" scrolling="no" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';">
+
+</iframe>
+
+<div style="background-color:gray;width:97%;height:50px;padding:10px;margin:auto;">
+<p>© 2023 by BHACCASYONIZTAS BEACH RESORT. All Rights Reserved
+<span style="float:right;">
+<a href="#"><img src="g.jpg" style="width:25px;height:25px;margin-right:5px;border-radius:50%;"></a>
+<a href="#"><img src="i.jpg" style="width:25px;height:25px;margin-right:5px;border-radius:50%;"></a>
+<a href="#"><img src="s.jpg" style="width:25px;height:25px;margin-right:5px;border-radius:50%;"></a>
+</span>
+</p>
+
+
+
+</div>
+</div>
+</body>
+
+</html>
